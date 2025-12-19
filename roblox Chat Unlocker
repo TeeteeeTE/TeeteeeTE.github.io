@@ -1,0 +1,7 @@
+
+local function pocinitChat()
+    game:GetService("CoreGui"):FindFirstChild("chatInputBar", true).Visible = true
+end
+
+
+pocinitChat()
